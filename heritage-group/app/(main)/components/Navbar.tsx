@@ -12,11 +12,7 @@ export default function Navbar() {
     <>
       <nav className="bg-transparent absolute border-b-[1px] border-white text-white shadow-md top-0 left-0 w-full z-20 md:flex-row md:flex-nowrap md:justify-between flex items-center p-4">
         <div className="m-0 px-4">
-          <a
-            className="z-40 text-white text-3xl uppercase lg:inline-block font-semibold"
-            href="/"
-            onClick={(e) => e.preventDefault()}
-          >
+          <a className="z-40 lg:inline-block" href="/">
             <img src="./RHPS.svg" className="w-[50px]" />
           </a>
         </div>
@@ -38,7 +34,7 @@ export default function Navbar() {
             <li className="cursor-pointer px-4 py-2 mx-2 bg-transparent rounded-full hover:text-black hover:bg-gray-300 transition-all duration-200">
               <a href="/resources">Resources</a>
             </li>
-            <li className="cursor-pointer px-4 py-2 bg-yellow-400/70 w-[150px] hover:scale-105 rounded-full font-medium text-center transition-all ease-in duration-150">
+            <li className="cursor-pointer px-4 py-2 bg-yellow-500 w-[150px] hover:scale-105 rounded-full font-medium text-center transition-all ease-in duration-150">
               <a href="/contact">Get in touch</a>
             </li>
           </ul>
@@ -95,7 +91,7 @@ export default function Navbar() {
                 <li className="cursor-pointer px-4 py-2 mx-2 mb-4 bg-transparent rounded-full hover:text-black hover:bg-gray-300 transition-all duration-200">
                   <a href="/resources">Resources</a>
                 </li>
-                <li className="cursor-pointer px-4 py-2 mb-2 bg-yellow-400/70 w-[150px] hover:scale-105 rounded-full font-medium text-center transition-all ease-in duration-150">
+                <li className="cursor-pointer px-4 py-2 mb-2 bg-yellow-400/80 w-[150px] hover:scale-105 rounded-full font-medium text-center transition-all ease-in duration-150">
                   <a href="/contact">Get in touch</a>
                 </li>
               </ul>
