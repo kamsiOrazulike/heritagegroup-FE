@@ -23,9 +23,11 @@ export default function Home() {
           <Searchbar />
         </div>
       </div>
-      <SectionManifesto />
-      <SectionHomes />
-      <SectionOther />
+      <div className="flex flex-col items-center justify-between">
+        <SectionHomes />
+        <SectionManifesto />
+        <SectionOther />
+      </div>
     </div>
   );
 }
